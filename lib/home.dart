@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Social Rate', // Title of the app
+      title: 'Perception', // Title of the app
       theme: ThemeData(
         primarySwatch: Colors.blue, // Set primary color theme
       ),
@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        title: Text('Social Rate'),
+        title: Text('Perception'),
       ),
 
       body: Center(

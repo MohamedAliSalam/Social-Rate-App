@@ -77,21 +77,14 @@ class _SignupPageState extends State<SignupPage> {
               children: <Widget>[
                 // UI elements for the sign-up form
                 Text(
-                  'Social',
+                  'Perception',
                   style: TextStyle(
                     fontSize: 28.0,
                     fontWeight: FontWeight.bold,
                   ),
                   textAlign: TextAlign.center,
                 ),
-                Text(
-                  'Rate',
-                  style: TextStyle(
-                    fontSize: 28.0,
-                    fontWeight: FontWeight.bold,
-                  ),
-                  textAlign: TextAlign.center,
-                ),
+
                 const SizedBox(height: 10),
                 SizedBox(
                   width: 200,

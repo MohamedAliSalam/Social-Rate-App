@@ -24,7 +24,7 @@ class _SearchPageState extends State<SearchPage> {
   List<Map<String, dynamic>> _searchResults = []; // List to store search results
 
   // Function to perform a search based on the query
-  void _search(String queery) async {
+  void _search(String query) async {
     final loggedUserEmail = await getLoggedUserEmail(); // Fetch logged-in user's email
     final results = await fetchSearchResults(query, loggedUserEmail); // Fetch search results
     setState(() {
